@@ -6,7 +6,7 @@ The EU AI Act classifies AI systems into risk tiers based on their intended use 
 
 ### Risk Classification
 
-This project in its current form — academic research on a single SAR image would fall under **minimal risk**. It makes no autonomous decisions affecting people and is not deployed in any real system.
+This project in its current form academic research on a single SAR image would fall under **minimal risk**. It makes no autonomous decisions affecting people and is not deployed in any real system.
 
 ### If Deployed in Practice
 
@@ -26,7 +26,7 @@ to be noted it won't be used for any if this
 
 ### Technical Robustness Requirement
 
-The Act requires AI systems to be technically robust and accurate. The limitations identified in this project — small training dataset, metric ceiling from speckle noise, single scene generalisation would need to be fully addressed and documented before any compliant deployment.
+The Act requires AI systems to be technically robust and accurate. The limitations identified in this project   small training dataset, metric ceiling from speckle noise, single scene generalisation would need to be fully addressed and documented before any compliant deployment.
 
 ### Transparency
 
@@ -40,19 +40,19 @@ As a research project it is largely unaffected, but any move toward real world S
 
 what i want to have done
 
-1. **SP-01** — The model shall achieve a PSNR of at least 25 dB
+1. **SP-01**   The model shall achieve a PSNR of at least 25 dB
 on the validation set.
-2. **SP-02** — The model shall achieve an SSIM of at least 0.40
+2. **SP-02**   The model shall achieve an SSIM of at least 0.40
 on the validation set.
-3. **SP-03** — The model shall produce output images at exactly
+3. **SP-03**   The model shall produce output images at exactly
 4× the spatial resolution of the input.
-4. **SP-04** — The system shall process a 32×32 LR patch and
+4. **SP-04**   The system shall process a 32×32 LR patch and
 produce a 128×128 HR output without artefacts.
-5. **SP-05** — Training shall be completed on a single consumer
+5. **SP-05**   Training shall be completed on a single consumer
 GPU with 12 GB VRAM or less.
-6. **SP-06** — The system shall handle single-channel SAR
+6. **SP-06**   The system shall handle single-channel SAR
 amplitude imagery as input.
-7. **SP-07** — Preprocessing shall reduce speckle noise
+7. **SP-07**   Preprocessing shall reduce speckle noise
 sufficiently to enable model convergence beyond the SLC baseline.
 
 ---
