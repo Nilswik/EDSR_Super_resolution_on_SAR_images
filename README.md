@@ -6,7 +6,7 @@ The EU AI Act classifies AI systems into risk tiers based on their intended use 
 
 ### Risk Classification
 
-This project in its current form — academic research on a single SAR image — would fall under **minimal risk**. It makes no autonomous decisions affecting people and is not deployed in any real system.
+This project in its current form — academic research on a single SAR image would fall under **minimal risk**. It makes no autonomous decisions affecting people and is not deployed in any real system.
 
 ### If Deployed in Practice
 
@@ -20,21 +20,21 @@ If this super-resolution model were used to enhance imagery for **automated surv
 
 - Human oversight mechanisms
 - Conformity assessments before deployment
-- Registration in the EU database of high-risk AI systems
+- Registration in the EU database of high risk AI systems
 
 to be noted it won't be used for any if this
 
 ### Technical Robustness Requirement
 
-The Act requires AI systems to be technically robust and accurate. The limitations identified in this project — small training dataset, metric ceiling from speckle noise, single-scene generalisation - would need to be fully addressed and documented before any compliant deployment.
+The Act requires AI systems to be technically robust and accurate. The limitations identified in this project — small training dataset, metric ceiling from speckle noise, single scene generalisation would need to be fully addressed and documented before any compliant deployment.
 
 ### Transparency
 
-The most immediately applicable provision is the **transparency requirement** - developers must document training data, model design and known limitations. The report produced for this project already satisfies this in an academic context.
+The most immediately applicable provision is the **transparency requirement**  developers must document training data, model design and known limitations. The report produced for this project already satisfies this in an academic context.
 
 ### Summary
 
-As a research project it is largely unaffected, but any move toward real-world SAR surveillance applications would likely trigger high-risfk classification and signiicant compliance requirements.
+As a research project it is largely unaffected, but any move toward real world SAR surveillance applications would likely trigger high risfk classification and signiicant compliance requirements.
 
 ### Formal Specifications
 
